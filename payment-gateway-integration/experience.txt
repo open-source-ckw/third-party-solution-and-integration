@@ -1,0 +1,119 @@
+SHARING SOME DETAILS ABOUT ONLINE PAYMENT GATEWAY FEATURE INTEGRATION
+
+PAYMENT GATEWAYS:
+- PayPal
+- 2Checkout
+- Stripe
+- MoneyGram
+- Instamojo
+- Money Gram
+- Razorpay
+- Mastercard API
+- VISA card API
+- Maestro CARD API
+- Authorize.Net
+- Amazon Pay
+
+
+
+With all of those payment gateway, below are some integration use cases. It is possible that some features are only available in specific Payment Gateway. Generally, every payment gateway provide more or less similar features also follow similar integration process.
+
+Basic intehration process is, every payment gateway has their own set of APIs and we can refere it's documentation. These are generally REST API. As as developer point of view, need to understand  provided parameters in API and choose programming language. Understand required logic and decide which api end point needs to be used to fulfill business logic. 
+
+
+INTEGRATION TYPE:
+- Single payment
+- Recurring payment
+- Webhooks integration
+- Thrirdparty API connectors
+- Embedding ready-to-use forms
+- Payment links
+- Escrow payment
+- Handling delayed payments [success/failed]
+- Creating payment plans
+- Updating payment plans
+- Cancelling payment plans
+- Refund process
+ 
+ 
+USE CASES:
+1] E-Commerce: multi-vendor setup
+- E-Commerce webiste allow to register multiple vendor with their service and products. After purchase process payment is received and transfered as per defined split payment rules. 
+- Platform received single payment from customer, using split payment feature.
+- I have developed function which deduct commission for their platform and send remaining part to the respected vendor's account
+
+ 
+2] Online learning portal
+- 2 types of payment setup implemented
+- Single payment: Readers can purchase specific course based on on single use policy
+- Recurring payment: Readers can subscribe with monthly membership package to continue to use all cources/services.
+
+ 
+3] Charity platform
+- Here site visitors can pay donation amount as per their capacity, so no-fixed amount setup done.
+- User enter custom amount at the time of payment process.
+
+ 
+4] Service purchase
+- Build a portal where site owner can list different online services with different rates. 
+- Customer choose appropriate service and pay by choosing their choice of payment option like debit/credit card, online banking or other third party payment gateways.
+
+ 
+5] Create payment links dynamically
+- Site owner fill up the form with amount, currency, purpose of payment, recipient name and email. 
+- As per the details given, system generates payment link and send it to customer using their email address.
+- Customer click on a link and process the payment.
+ 
+ 
+6] Wholesale business
+- System receive items details with no.of quantity, shopkeeper scan the QR codes printed on products, create invoice and system send QR code and Payment link to respected party where they scan and pay for invoice.
+ 
+
+7] Connecting payment gateway with 3rd party CRM
+- Customer onboarding process on website portal, collect payment for membership and send customer data to respected CRM via API once payment is done. 
+- This is performed using Webhook.
+ 
+
+8] Photo/Video shoot order
+- Photography Freelancer Portal allows property owners to choose different photo/video shoot packages for their property photography.
+- Customer choose the package and place order using online payment. 
+- On sucessfull payment, order assigned to specific photographer using Webhook.
+- Upon completion, system release payment to photographer after deducting commission part for platform
+
+
+9] Hiring Truck
+- A truck portal where truck owners register to find transportation job.
+- Customer such as various businesses who are looking for any transport service, post a job on portal.
+- Truck drivers offer their service with price and customers choose the relvent.
+- If order is assigned, customer make a full payment to Escrow where payment is hold until job get done.
+- Upon successful completion of job payment is released to truck owner.
+
+A QUESTION:
+Explain how you approached the problem and arrived at your solution?
+Well, in case of payment gateway integration or any payment related requirements need to understand how payment required to be processed such as.. 
+- How it should be received
+- Whether it require to split or not
+- If it is recurring or one time
+- What about transaction charges
+- Any after payment process
+- Refundable or not
+This can be determine by a discussion or requirement sharing. 
+Once all indetified, we can simpley check the choosen payment gateway API document and identify which method is suitable and create a mind map using provided feature. Once everything is aligned with technical spcification, we can start real time integration process.
+
+
+IN GENERAL INTEGRATION FLOW:
+There are total 3 points in any payment gateway integration.
+1. Platform required to receive payment
+2. Consumer who want to make a payment
+3. Payment gateway perform the actual payment process
+
+
+In simple diagram is...
+Platform uses Payment Gateway via API and offer payment interface to consumers.
+Consumers make a payment to Payment Gateway.
+Payment Gateway process back to portal and portal receive the payment.
+
+
+
+
+
