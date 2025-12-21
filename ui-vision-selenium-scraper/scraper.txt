@@ -1,0 +1,27 @@
+# REQUIREMENT:
+Client wat a tool that extracts GHIN scores for given number of players from https://www.ghin.com/.
+Analyzes their performance relative to their handicap, and ranks them accordingly. The tool should provide a report in CSV, Excel, or PDF format.
+Client what to set number of players and also date rage and 1 row empty after each record in csv if needed.
+Client will enter GHIN ID in seperate csv which will be read by scrapper during process.
+This required to login to the account.
+
+# SOLUTION:
+As client is non-techncial we used user friendly approach to operate.
+Scrapper was developed using ui.vision (Selenium) Google Chrome add-on.
+Basic idea will be, client will enter your ghin numbers in ghin-number-list.csv (check the csv format)
+
+After client will open Google Chrome Browser and start pre installed add-on ui.vision
+You will just click on play button and automation will start scrapping the data.
+At the end it will be saved in another .csv file ghin-data.csv (check the csv format)
+
+Whenever client want to scrap data for ghin numbers open the .csv and enter those new numbers and just start the player.
+After you play the scraper you just wait and watch until process get done.
+
+Every time, client will fill new GHIN numbers in .csv and play the automation at the end client will have data in new csv.
+
+I have attached all the proof of work.
+Original requirement: Golfer-Detail.png
+Working solution: automation-development.PNG
+Input csv: ghin-number-list.csv
+Output csv: ghin-data.csv
+Scraper: ghin-data-scraper.json

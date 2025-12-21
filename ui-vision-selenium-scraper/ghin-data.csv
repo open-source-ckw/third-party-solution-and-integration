@@ -1,0 +1,393 @@
+RecGhin,RecGolferName,RevDiff,RecHandicapIndex,RevScore,RecLowHi,RevDate,RevRating,RevCourse,RecClubName,ScrapDateTime
+567933,Don Schumacher,17.1,9.5,89H,9.1,12/16/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:40:21
+-
+567933,Don Schumacher,15.2,9.5,87H,9.1,12/15/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:40:23
+-
+567933,Don Schumacher,15.5,9.5,88A,9.1,12/13/2025,70.7/126,Avondale Golf Club,Toscana Country Club,2025-12-19 15:40:25
+-
+567933,Don Schumacher,6.5,9.5,* 77H,9.1,12/12/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:40:26
+-
+567933,Don Schumacher,6.4,9.5,* 77C,9.1,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:40:28
+-
+158247,Mike Byrne,17.1,15.3,89H,12.4,12/2025,69.8/127,Not Found,Ranch Country Club,2025-12-19 15:40:44
+-
+158247,Mike Byrne,16.1,15.3,* 88C,12.4,12/2025,69.6/129,Not Found,Ranch Country Club,2025-12-19 15:40:45
+-
+158247,Mike Byrne,17.1,15.3,89H,12.4,12/2025,69.8/127,Not Found,Ranch Country Club,2025-12-19 15:40:47
+-
+158247,Mike Byrne,16.2,15.3,* 88H,12.4,12/2025,69.8/127,Not Found,Ranch Country Club,2025-12-19 15:40:49
+-
+158247,Mike Byrne,16.1,15.3,* 88H,12.4,11/2025,69.6/129,Not Found,Ranch Country Club,2025-12-19 15:40:51
+-
+158247,Mike Byrne,17.1,15.3,89H,12.4,12/12/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:03
+-
+158247,Mike Byrne,16.1,15.3,* 88C,12.4,12/11/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:05
+-
+158247,Mike Byrne,17.1,15.3,89H,12.4,12/08/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:08
+-
+158247,Mike Byrne,16.2,15.3,* 88H,12.4,12/05/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:10
+-
+158247,Mike Byrne,16.1,15.3,* 88H,12.4,11/28/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:12
+-
+1539105,David Broshko,16.1,14.3,88H,13.2,12/07/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:27
+-
+1539105,David Broshko,19.9,14.3,94H,13.2,12/06/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:29
+-
+1539105,David Broshko,17.0,14.3,89H,13.2,12/01/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:31
+-
+1539105,David Broshko,16.4,14.3,90H,13.2,11/29/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:33
+-
+1539105,David Broshko,17.0,14.3,89H,13.2,11/28/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:35
+-
+659533,Stephen Burtt,18.9,16.8,* 91H,16.4,12/18/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:50
+-
+659533,Stephen Burtt,17.7,16.8,* 89H,16.4,12/16/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:53
+-
+659533,Stephen Burtt,21.4,16.8,94H,16.4,12/09/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:55
+-
+659533,Stephen Burtt,23.3,16.8,96H,16.4,12/04/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:41:57
+-
+659533,Stephen Burtt,28.5,16.8,101H,16.4,12/02/2025,69.0/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:41:59
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/2025,69.6/129,Not Found,Cherry Creek Country Club,2025-12-19 15:42:15
+-
+8634575,Doug Campbell,17.1,9.0,89C,6.9,12/2025,69.8/127,Not Found,Cherry Creek Country Club,2025-12-19 15:42:17
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/2025,69.6/129,Not Found,Cherry Creek Country Club,2025-12-19 15:42:19
+-
+8634575,Doug Campbell,7.9,9.0,"* 38N
+i",6.9,12/2025,34.7/128,Not Found,Cherry Creek Country Club,2025-12-19 15:42:22
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/2025,69.6/129,Not Found,Cherry Creek Country Club,2025-12-19 15:42:24
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/13/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:42:35
+-
+8634575,Doug Campbell,17.1,9.0,89C,6.9,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:42:38
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/10/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:42:40
+-
+8634575,Doug Campbell,7.9,9.0,"* 38N
+i",6.9,12/07/2025,34.7/128,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:42:42
+-
+8634575,Doug Campbell,15.2,9.0,87H,6.9,12/06/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:42:44
+-
+436810,Paul Carkonen,18.6,17.0,* 90H,13.8,12/17/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:00
+-
+436810,Paul Carkonen,20.5,17.0,92H,13.8,12/15/2025,69.0/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:43:02
+-
+436810,Paul Carkonen,18.7,17.0,* 91H,13.8,12/13/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:43:04
+-
+436810,Paul Carkonen,14.4,17.0,* 86C,13.8,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:07
+-
+436810,Paul Carkonen,21.4,17.0,94H,13.8,12/10/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:43:09
+-
+62173,Paul Charron,18.0,14.7,90H,14.3,11/19/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:25
+-
+62173,Paul Charron,17.1,14.7,89H,14.3,11/14/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:27
+-
+62173,Paul Charron,15.1,14.7,"* 43N
+i",14.3,09/06/2025,35.6/132,Calgary Golf and Country Club,Toscana Country Club,2025-12-19 15:43:29
+-
+62173,Paul Charron,15.6,14.7,88A,14.3,08/31/2025,70.1/130,Calgary Golf and Country Club,Toscana Country Club,2025-12-19 15:43:31
+-
+62173,Paul Charron,15.6,14.7,88A,14.3,08/30/2025,70.1/130,Calgary Golf and Country Club,Toscana Country Club,2025-12-19 15:43:33
+-
+9224828,A. J. Ciontea,16.2,8.6,88H,6.6,12/13/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:49
+-
+9224828,A. J. Ciontea,10.9,8.6,82C,6.6,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:51
+-
+9224828,A. J. Ciontea,12.0,8.6,80A,6.6,12/09/2025,67.0/122,Stone Eagle Golf Club,Toscana Country Club,2025-12-19 15:43:53
+-
+9224828,A. J. Ciontea,15.7,8.6,91H,6.6,12/03/2025,72.3/135,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:43:55
+-
+9224828,A. J. Ciontea,10.3,8.6,* 83H,6.6,11/30/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:43:57
+-
+9331013,Mike Culbert,25.7,17.6,105A,16.7,12/03/2025,72.5/143,Jumeirah Golf EstatesEarth,Toscana Country Club,2025-12-19 15:44:12
+-
+9331013,Mike Culbert,17.6,17.6,* 95A,16.7,12/01/2025,72.9/142,Emirates Golf ClubMajlis,Toscana Country Club,2025-12-19 15:44:14
+-
+9331013,Mike Culbert,21.5,17.6,94H,16.7,11/20/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:44:16
+-
+9331013,Mike Culbert,22.4,17.6,95H,16.7,11/19/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:44:18
+-
+9331013,Mike Culbert,22.4,17.6,95H,16.7,11/17/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:44:21
+-
+2337377,Jay Deiglmeier,14.4,7.5,86H,6.5,12/15/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:44:36
+-
+2337377,Jay Deiglmeier,11.7,7.5,82A,6.5,11/10/2025,68.8/127,Stone Eagle Golf Club,Toscana Country Club,2025-12-19 15:44:38
+-
+2337377,Jay Deiglmeier,12.7,7.5,82A,6.5,11/06/2025,68.9/117,Palm Desert Country Club,Toscana Country Club,2025-12-19 15:44:40
+-
+2337377,Jay Deiglmeier,12.5,7.5,82A,6.5,10/31/2025,68.4/123,Golf Club of Estrella,Toscana Country Club,2025-12-19 15:44:42
+-
+2337377,Jay Deiglmeier,8.8,7.5,78A,6.5,10/16/2025,69.4/111,Gamble Sands,Toscana Country Club,2025-12-19 15:44:44
+-
+9349347,John Dielwart,28.7,24.9,102H,23.3,12/18/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:00
+-
+9349347,John Dielwart,29.3,24.9,103H,23.3,12/13/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:45:03
+-
+9349347,John Dielwart,30.4,24.9,104H,23.3,12/10/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:05
+-
+9349347,John Dielwart,25.8,24.9,* 99H,23.3,12/09/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:45:07
+-
+9349347,John Dielwart,31.3,24.9,105H,23.3,12/06/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:09
+-
+7531196,Wilf Gobert,23.0,20.5,95H,19.9,11/20/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:25
+-
+7531196,Wilf Gobert,23.1,20.5,96H,19.9,11/18/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:45:27
+-
+7531196,Wilf Gobert,20.4,20.5,* 92H,19.9,11/17/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:29
+-
+7531196,Wilf Gobert,23.9,20.5,96H,19.9,11/16/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:32
+-
+7531196,Wilf Gobert,18.0,20.5,* 89H,19.9,04/28/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:34
+-
+10712762,Collin Herbers,10.0,10.6,* 81H,8.8,12/18/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:50
+-
+10712762,Collin Herbers,12.6,10.6,* 84H,8.8,12/16/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:52
+-
+10712762,Collin Herbers,14.4,10.6,86C,8.8,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:54
+-
+10712762,Collin Herbers,17.3,10.6,91H,8.8,12/10/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:45:56
+-
+10712762,Collin Herbers,13.5,10.6,85H,8.8,12/09/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:45:58
+-
+411816,Tom Huling,14.4,11.4,86H,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:15
+-
+411816,Tom Huling,14.4,11.4,86C,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:17
+-
+411816,Tom Huling,14.4,11.4,86H,8.7,12/2025,69.6/129,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:19
+-
+411816,Tom Huling,12.3,11.4,"* 41N
+i",8.7,12/2025,34.9/129,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:21
+-
+411816,Tom Huling,16.2,11.4,88H,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:23
+-
+411816,Tom Huling,14.4,11.4,86H,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:46:59
+-
+411816,Tom Huling,14.4,11.4,86C,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:47:02
+-
+411816,Tom Huling,14.4,11.4,86H,8.7,12/2025,69.6/129,Not Found,Rainier Golf & Country Club,2025-12-19 15:47:04
+-
+411816,Tom Huling,12.3,11.4,"* 41N
+i",8.7,12/2025,34.9/129,Not Found,Rainier Golf & Country Club,2025-12-19 15:47:06
+-
+411816,Tom Huling,16.2,11.4,88H,8.7,12/2025,69.8/127,Not Found,Rainier Golf & Country Club,2025-12-19 15:47:08
+-
+1606288,Don Jewell,20.6,8.2,93C,6.1,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:47:24
+-
+1606288,Don Jewell,11.7,8.2,83A,6.1,12/03/2025,70.1/125,The Club at Morningside (Alternate Course),Toscana Country Club,2025-12-19 15:47:26
+-
+1606288,Don Jewell,10.0,8.2,* 81A,6.1,11/29/2025,69.8/127,Toscana Country Club (South Course),Toscana Country Club,2025-12-19 15:47:29
+-
+1606288,Don Jewell,7.8,8.2,* 80A,6.1,11/27/2025,71.0/130,Toscana Country Club (South Course),Toscana Country Club,2025-12-19 15:47:31
+-
+1606288,Don Jewell,8.4,8.2,* 79A,6.1,11/20/2025,69.5/128,Toscana Country Club (North Course),Toscana Country Club,2025-12-19 15:47:33
+-
+1434796,Dave Johnson,21.5,20.4,* 94H,18.7,12/06/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:47:49
+-
+1434796,Dave Johnson,29.3,20.4,102H,18.7,11/12/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:47:51
+-
+1434796,Dave Johnson,21.4,20.4,"* 45N
+i",18.7,04/11/2025,34.2/126,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:47:54
+-
+1434796,Dave Johnson,24.8,20.4,"49N
+i",18.7,04/10/2025,34.5/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:47:56
+-
+1434796,Dave Johnson,23.0,20.4,"47N
+i",18.7,04/10/2025,34.6/124,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:47:58
+-
+4384968,Tom Kilroy,21.5,17.9,94H,14.1,12/16/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:48:14
+-
+4384968,Tom Kilroy,15.3,17.9,* 87H,14.1,12/10/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:48:16
+-
+4384968,Tom Kilroy,19.6,17.9,* 92H,14.1,12/09/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:48:18
+-
+4384968,Tom Kilroy,20.6,17.9,* 93H,14.1,12/06/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:48:21
+-
+4384968,Tom Kilroy,22.2,17.9,95H,14.1,12/04/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:48:23
+-
+1432277,Stan Kohls,20.6,20.9,* 93H,17.7,12/2025,69.8/127,Not Found,Hayden Lake Country Club,2025-12-19 15:48:39
+-
+1432277,Stan Kohls,25.1,20.9,98H,17.7,11/2025,69.8/127,Not Found,Hayden Lake Country Club,2025-12-19 15:48:41
+-
+1432277,Stan Kohls,28.4,20.9,102H,17.7,11/2025,69.6/129,Not Found,Hayden Lake Country Club,2025-12-19 15:48:43
+-
+1432277,Stan Kohls,23.9,20.9,96H,17.7,11/2025,69.3/126,Not Found,Hayden Lake Country Club,2025-12-19 15:48:46
+-
+1432277,Stan Kohls,21.6,20.9,* 88H,17.7,10/2025,65.4/118,Not Found,Hayden Lake Country Club,2025-12-19 15:48:48
+-
+1432277,Stan Kohls,20.6,20.9,* 93H,17.7,12/03/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:00
+-
+1432277,Stan Kohls,25.1,20.9,98H,17.7,11/29/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:02
+-
+1432277,Stan Kohls,28.4,20.9,102H,17.7,11/26/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:49:04
+-
+1432277,Stan Kohls,23.9,20.9,96H,17.7,11/24/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:06
+-
+1432277,Stan Kohls,21.6,20.9,* 88H,17.7,10/07/2025,65.4/118,Hayden Lake Country Club,Toscana Country Club,2025-12-19 15:49:08
+-
+9321660,Dennis Lincoln,23.1,17.2,95H,15.1,12/08/2025,69.0/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:49:24
+-
+9321660,Dennis Lincoln,21.3,17.2,93H,15.1,12/03/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:26
+-
+9321660,Dennis Lincoln,19.6,17.2,91H,15.1,12/01/2025,69.0/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:49:29
+-
+9321660,Dennis Lincoln,21.3,17.2,93H,15.1,11/30/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:31
+-
+9321660,Dennis Lincoln,22.2,17.2,94H,15.1,11/19/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:49:33
+-
+9321660,Dennis Lincoln,23.1,17.2,95H,15.1,12/2025,69.0/127,Not Found,Montreux CC,2025-12-19 15:49:45
+-
+9321660,Dennis Lincoln,21.3,17.2,93H,15.1,12/2025,69.3/126,Not Found,Montreux CC,2025-12-19 15:49:47
+-
+9321660,Dennis Lincoln,19.6,17.2,91H,15.1,12/2025,69.0/127,Not Found,Montreux CC,2025-12-19 15:49:49
+-
+9321660,Dennis Lincoln,21.3,17.2,93H,15.1,11/2025,69.3/126,Not Found,Montreux CC,2025-12-19 15:49:52
+-
+9321660,Dennis Lincoln,22.2,17.2,94H,15.1,11/2025,69.3/126,Not Found,Montreux CC,2025-12-19 15:49:54
+-
+2787863,Bill McHale,22.2,18.3,94H,18.3,12/08/2025,69.0/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:50:10
+-
+2787863,Bill McHale,22.6,18.3,"48N
+i",18.3,12/01/2025,34.6/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:50:12
+-
+2787863,Bill McHale,21.3,18.3,93H,18.3,11/24/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:50:14
+-
+2787863,Bill McHale,23.9,18.3,96H,18.3,11/19/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:50:17
+-
+2787863,Bill McHale,22.6,18.3,"48N
+i",18.3,11/17/2025,34.6/127,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:50:19
+-
+5788297,Jim Meeks,18.0,16.4,90H,15.8,12/2025,69.8/127,Not Found,The Valley Club,2025-12-19 15:50:35
+-
+5788297,Jim Meeks,16.0,16.4,"* 42N
+i",15.8,12/2025,34.9/129,Not Found,The Valley Club,2025-12-19 15:50:37
+-
+5788297,Jim Meeks,20.6,16.4,93H,15.8,12/2025,69.8/127,Not Found,The Valley Club,2025-12-19 15:50:39
+-
+5788297,Jim Meeks,18.7,16.4,91H,15.8,12/2025,69.6/129,Not Found,The Valley Club,2025-12-19 15:50:41
+-
+5788297,Jim Meeks,18.7,16.4,91H,15.8,12/2025,69.6/129,Not Found,The Valley Club,2025-12-19 15:50:44
+-
+5788297,Jim Meeks,18.0,16.4,90H,15.8,12/13/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:50:55
+-
+5788297,Jim Meeks,16.0,16.4,"* 42N
+i",15.8,12/12/2025,34.9/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:50:57
+-
+5788297,Jim Meeks,20.6,16.4,93H,15.8,12/10/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:50:59
+-
+5788297,Jim Meeks,18.7,16.4,91H,15.8,12/09/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:01
+-
+5788297,Jim Meeks,18.7,16.4,91H,15.8,12/08/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:03
+-
+62179,Rod Munro,26.9,14.0,100H,14.0,11/17/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:51:20
+-
+62179,Rod Munro,13.6,14.0,* 83A,14.0,09/04/2025,67.8/126,The Glencoe Golf & Country Club - Lakes/Slopes,Toscana Country Club,2025-12-19 15:51:22
+-
+62179,Rod Munro,12.7,14.0,* 82A,14.0,08/28/2025,67.8/126,The Glencoe Golf & Country Club - Lakes/Slopes,Toscana Country Club,2025-12-19 15:51:24
+-
+62179,Rod Munro,22.6,14.0,93A,14.0,08/21/2025,67.8/126,The Glencoe Golf & Country Club - Lakes/Slopes,Toscana Country Club,2025-12-19 15:51:26
+-
+62179,Rod Munro,14.5,14.0,* 84A,14.0,07/31/2025,67.8/126,The Glencoe Golf & Country Club - Lakes/Slopes,Toscana Country Club,2025-12-19 15:51:28
+-
+11302408,Dan Murray,12.4,10.4,* 85H,8.9,11/29/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:45
+-
+11302408,Dan Murray,13.0,10.4,* 86H,8.9,11/28/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:51:47
+-
+11302408,Dan Murray,7.2,10.4,* 79H,8.9,11/27/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:49
+-
+11302408,Dan Murray,7.2,10.4,* 79H,8.9,11/25/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:51
+-
+11302408,Dan Murray,13.3,10.4,86H,8.9,11/24/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:51:53
+-
+2549556,Paul Murray,11.2,10.1,* 84H,6.5,12/17/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:52:10
+-
+2549556,Paul Murray,15.9,10.1,89H,6.5,12/02/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:52:12
+-
+2549556,Paul Murray,11.2,10.1,* 84H,6.5,11/28/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:52:14
+-
+2549556,Paul Murray,16.4,10.1,90H,6.5,11/27/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:52:16
+-
+2549556,Paul Murray,10.6,10.1,* 83A,6.5,09/18/2025,71.3/125,Co. Louth Golf Club,Toscana Country Club,2025-12-19 15:52:18
+-
+9218800,Steve O'Connell,14.4,12.7,* 86H,10.3,12/06/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:52:35
+-
+9218800,Steve O'Connell,16.1,12.7,88H,10.3,11/16/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:52:37
+-
+9218800,Steve O'Connell,9.6,12.7,* 80H,10.3,11/12/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:52:39
+-
+9218800,Steve O'Connell,16.6,12.7,89A,10.3,11/09/2025,70.3/127,Indian Wells Golf ResortCELEBRITY,Toscana Country Club,2025-12-19 15:52:41
+-
+9218800,Steve O'Connell,13.1,12.7,* 84H,10.3,09/07/2025,69.2/128,Toscana Country ClubSOUTH / NORTH,Toscana Country Club,2025-12-19 15:52:43
+-
+2667761,Hardy Porter,7.3,9.5,* 78H,9.3,12/18/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:00
+-
+2667761,Hardy Porter,13.8,9.5,87H,9.3,12/17/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:02
+-
+2667761,Hardy Porter,10.9,9.5,82H,9.3,12/16/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:04
+-
+2667761,Hardy Porter,10.9,9.5,* 82H,9.3,12/14/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:53:06
+-
+2667761,Hardy Porter,14.4,9.5,86H,9.3,12/13/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:53:08
+-
+1370549,David Richards,14.4,14.0,* 86A,12.3,11/23/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:53:24
+-
+1370549,David Richards,24.2,14.0,97A,12.3,11/21/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:27
+-
+1370549,David Richards,16.2,14.0,88A,12.3,11/19/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:29
+-
+1370549,David Richards,20.5,14.0,93A,12.3,11/18/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:53:31
+-
+1370549,David Richards,15.0,14.0,* 86H,12.3,11/12/2025,69.3/126,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:33
+-
+817307,Steve Simpson,9.5,8.2,* 82H,5.4,12/13/2025,71.1/130,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:49
+-
+817307,Steve Simpson,5.5,8.2,* 76C,5.4,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:52
+-
+817307,Steve Simpson,9.1,8.2,* 80H,5.4,12/10/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:54
+-
+817307,Steve Simpson,15.0,8.2,88H,5.4,12/06/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:53:56
+-
+817307,Steve Simpson,8.2,8.2,* 79H,5.4,12/03/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:53:58
+-
+9211445,John Suydam,15.3,14.4,* 87H,12.1,12/17/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:14
+-
+9211445,John Suydam,18.9,14.4,91H,12.1,12/13/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:17
+-
+9211445,John Suydam,24.2,14.4,97H,12.1,12/10/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:19
+-
+9211445,John Suydam,20.6,14.4,93H,12.1,12/06/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:21
+-
+9211445,John Suydam,15.2,14.4,* 87H,12.1,11/25/2025,69.6/129,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:54:23
+-
+9720415,Walter Vanbenthuysen,34.3,23.3,107H,21.6,05/14/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:39
+-
+9720415,Walter Vanbenthuysen,27.0,23.3,99H,21.6,05/07/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:42
+-
+9720415,Walter Vanbenthuysen,24.3,23.3,* 96H,21.6,05/03/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:44
+-
+9720415,Walter Vanbenthuysen,29.7,23.3,102H,21.6,04/19/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:46
+-
+9720415,Walter Vanbenthuysen,32.5,23.3,105H,21.6,04/16/2025,69.1/125,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:54:48
+-
+9066265,Dave Willie,20.6,14.2,93C,14.2,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:55:04
+-
+9066265,Dave Willie,14.1,14.2,* 87H,14.2,12/06/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:55:06
+-
+9066265,Dave Willie,22.7,14.2,94A,14.2,12/01/2025,69.5/122,Indian Wells Golf ResortPLAYERS,Toscana Country Club,2025-12-19 15:55:09
+-
+9066265,Dave Willie,18.7,14.2,92A,14.2,11/30/2025,70.7/129,The Palms Golf Club,Toscana Country Club,2025-12-19 15:55:11
+-
+9066265,Dave Willie,15.8,14.2,* 87A,14.2,09/18/2025,69.8/123,Bermuda Dunes Country ClubCLASSIC #1 - CLASSIC #2,Toscana Country Club,2025-12-19 15:55:13
+-
+141810,Ryan Wilson,24.2,16.6,97C,15.5,12/11/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:55:29
+-
+141810,Ryan Wilson,18.5,16.6,92H,15.5,12/06/2025,70.6/131,Toscana Country ClubNORTH,Toscana Country Club,2025-12-19 15:55:31
+-
+141810,Ryan Wilson,21.5,16.6,94H,15.5,12/05/2025,69.8/127,Toscana Country ClubSOUTH,Toscana Country Club,2025-12-19 15:55:33
+-
+141810,Ryan Wilson,17.3,16.6,* 85A,15.5,11/07/2025,67.5/114,Palm Desert Country Club,Toscana Country Club,2025-12-19 15:55:36
+-
+141810,Ryan Wilson,20.3,16.6,88A,15.5,11/04/2025,67.5/114,Palm Desert Country Club,Toscana Country Club,2025-12-19 15:55:38
+-

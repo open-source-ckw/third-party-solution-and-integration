@@ -1,0 +1,570 @@
+{
+  "Name": "ghin-data-scraper",
+  "CreationDate": "2025-12-19",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "MEDIUM",
+      "Value": "!REPLAYSPEED",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "50",
+      "Value": "!timeout_wait",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "10",
+      "Value": "ScrapScoresRow",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "ghin-data.csv",
+      "Value": "data_save_csv_file",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "span[class=\"item\"]",
+      "Value": "sel_search_result_found",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "input[id=\"search\"]",
+      "Value": "sel_search_box",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "2025-12-01",
+      "Value": "sf_from_date",
+      "Description": "Not in use"
+    },
+    {
+      "Command": "store",
+      "Target": "2025-12-10",
+      "Value": "sf_to_date",
+      "Description": "Not in use"
+    },
+    {
+      "Command": "csvReadArray",
+      "Target": "ghin-number-list.csv",
+      "Value": "Rows",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!CsvReadMaxRow}",
+      "Value": "RowsCount",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Starting the scrapping process",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "openBrowser",
+      "Target": "about:blank",
+      "Value": "",
+      "Description": "black browser"
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.ghin.com/login",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "css=input[id=\"emailOrGhin\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=input[id=\"emailOrGhin\"]",
+      "Value": "username",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=input[id=\"password\"]",
+      "Value": "password",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "css=button[loading=\"false\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "css=h2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.ghin.com/golfer-lookup/all-golfers",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "1",
+      "Value": "i",
+      "Description": ""
+    },
+    {
+      "Command": "while",
+      "Target": "${i} < ${RowsCount}",
+      "Value": "",
+      "Description": "Each row looping"
+    },
+    {
+      "Command": "echo",
+      "Target": "RowsCount: ${RowsCount} | Counter: ${i} | Record: ${Rows[${i}][0]}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${Rows[${i}][0]}",
+      "Value": "RecGhin",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=${sel_search_box}",
+      "Value": "${RecGhin}",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "css=${sel_search_result_found}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var e = document.querySelectorAll('ul[class=\"lookup__list\"] li');\nreturn e.length - 1;",
+      "Value": "TotalSearchResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Total search result found: ${TotalSearchResult}",
+      "Value": "orange",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "1",
+      "Value": "k",
+      "Description": ""
+    },
+    {
+      "Command": "while",
+      "Target": "${k} <= ${TotalSearchResult}",
+      "Value": "",
+      "Description": "Search result while start"
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var eid = Number(${k}) + 1;\nvar sel = 'ul[class=\"lookup__list\"] li:nth-child('+eid+') span[class=\"item\"] a[class=\"item details\"]';\nreturn sel;",
+      "Value": "sel_result_row",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Clicking: ${sel_result_row}",
+      "Value": "brown",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "css=${sel_result_row}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//h4[contains(.,'Revision Scores')]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "css=div[class=\"name\"]",
+      "Value": "RecGolferName",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "css=div[class=\"club\"]",
+      "Value": "RecClubName",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "css=div[class=\"score\"]",
+      "Value": "RecHandicapIndex",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "css=div[class=\"low\"] small",
+      "Value": "RecLowHi",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "1",
+      "Value": "j",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "#${j} | ${RecGolferName} | ${RecClubName} | ${RecHandicapIndex} | ${RecLowHi}",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "FAST",
+      "Value": "!REPLAYSPEED",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//h4[normalize-space(.)='Revision Scores']/following::div[contains(@class,'tbl') and contains(@class,'phone__column')]//div[contains(@class,'tbl-row')]",
+      "Value": "TotalRevScore",
+      "Description": "h4:has(:text(\"Revision Scores\")) ~ div.tbl.phone__column div.tbl-row:nth-child(${j})"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "if(${TotalRevScore} > ${ScrapScoresRow})\n{\nreturn ${ScrapScoresRow}\n}\nelse\n{\nreturn ${TotalRevScore}\n}",
+      "Value": "CntRevScore",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Total Score count - ${CntRevScore}",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "while",
+      "Target": "${j} <= ${CntRevScore}",
+      "Value": "",
+      "Description": "Each score row looping"
+    },
+    {
+      "Command": "echo",
+      "Target": "Revision Scores ${j}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "//h4[normalize-space(.)='Revision Scores']/following::div[contains(@class,'tbl') and contains(@class,'phone__column')]//div[contains(@class,'tbl-row')][${j}]",
+      "Value": "sel_record",
+      "Description": "h4:has(:text(\"Revision Scores\")) ~ div.tbl.phone__column div.tbl-row:nth-child(${j})"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), ' score')]",
+      "Value": "sel_score",
+      "Description": "${sel_record} .score"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), ' date')]",
+      "Value": "sel_date",
+      "Description": "${sel_record} .date"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), ' rating')]",
+      "Value": "sel_rating",
+      "Description": "${sel_record} .rating"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), ' pcc')]",
+      "Value": "sel_pcc",
+      "Description": "${sel_record} .pcc"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), 'diff')]",
+      "Value": "sel_diff",
+      "Description": "${sel_record} .diff"
+    },
+    {
+      "Command": "store",
+      "Target": "${sel_record}//*[contains(concat(' ', normalize-space(@class), ' '), 'course')]",
+      "Value": "sel_course",
+      "Description": "${sel_record} .course"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=${sel_score}",
+      "Value": "RevScore",
+      "Description": "css=${sel_score}"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=${sel_date}",
+      "Value": "RevDate",
+      "Description": "css=${sel_date}"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=${sel_rating}",
+      "Value": "RevRating",
+      "Description": "css=${sel_rating}"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=${sel_pcc}",
+      "Value": "RevPcc",
+      "Description": "css=${sel_pcc}"
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=${sel_diff}",
+      "Value": "RevDiff",
+      "Description": "css=${sel_diff}"
+    },
+    {
+      "Command": "executeScript",
+      "Target": "/*\nvar ele = document.querySelector(${sel_course});\nif(ele){     return ele.textContent; } \nelse {     return 'Not Found'; }\n*/\nvar xpath = ${sel_course};\n\nvar result = document.evaluate(\n  xpath,\n  document,\n  null,\n  XPathResult.FIRST_ORDERED_NODE_TYPE,\n  null\n);\n\nvar ele = result.singleNodeValue;\n\nif (ele) {\n  return ele.textContent;\n} else {\n  return 'Not Found';\n}",
+      "Value": "RevCourse",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${RevScore} - [${RevCourse}]",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "if (${sf_from_date} == '' && ${sf_to_date} == ''){\nreturn true;\n}\n\n${RevDate}\n\nreturn true;\n\nreturn false;\n",
+      "Value": "isValidDateRange",
+      "Description": "Date checking logic"
+    },
+    {
+      "Command": "if",
+      "Target": "${isValidDateRange} == true",
+      "Value": "",
+      "Description": "Check the date range here"
+    },
+    {
+      "Command": "store",
+      "Target": "${RecGhin}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RecGolferName}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RevDiff}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RecHandicapIndex}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RevScore}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RecLowHi}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RevDate}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RevRating}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RevCourse}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${RecClubName}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var d=new Date(); \nfunction z(n){return (n<10?'0':'')+n;} \nvar ts =\n  d.getFullYear() + '-' +\n  z(d.getMonth() + 1) + '-' +\n  z(d.getDate()) + ' ' +\n  z(d.getHours()) + ':' +\n  z(d.getMinutes()) + ':' +\n  z(d.getSeconds());\n\nreturn ts;",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "csvSave",
+      "Target": "${data_save_csv_file}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "-",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "csvSave",
+      "Target": "${data_save_csv_file}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "if - Date rang filter end"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${j}) + 1;",
+      "Value": "j",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "j - loop end"
+    },
+    {
+      "Command": "store",
+      "Target": "MEDIUM",
+      "Value": "!REPLAYSPEED",
+      "Description": "Each score row looping end"
+    },
+    {
+      "Command": "if",
+      "Target": "${k} < ${TotalSearchResult}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "window.history.back()",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "css=${sel_search_box}",
+      "Value": "${RecGhin}",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "css=${sel_search_result_found}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "If {K} condition end"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${k}) + 1;",
+      "Value": "k",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "k - search result end"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${i}) + 1;",
+      "Value": "i",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "window.history.back()",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "i - csv Rows looping end"
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.user-menu__trigger",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "css=div.user-menu__content",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=[href=\"/?logout\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSE",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
