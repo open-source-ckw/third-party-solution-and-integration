@@ -1,15 +1,16 @@
-# web-socket-preview
+# Web Socket Preview
 Some web socket functionality for preview
 
-Case 1: Websocket live streaming process
+### Case 1: Websocket live streaming process
 1-websocket-livestreaming-process.mp4
 2-websocket_livestream_with_simple_voting.mp4
 
-Case 2: Real-time chart update
+### Case 2: Real-time chart update
 3-real-time-chart-update.mp4
 
 Both cases are based on the [web-socket-real-time-update]
 
+### Google Drive
 Here is the goole drive URL where you can view the videos
 https://drive.google.com/drive/folders/16nVGUvPo2ovB5E6_qycR-G7wwaTf0gU5?usp=drive_link
 
