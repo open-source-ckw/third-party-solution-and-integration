@@ -10,6 +10,9 @@ Client what to set number of players and also date rage and 1 row empty after ea
 Client will enter GHIN ID in seperate csv which will be read by scrapper during process.
 This required to login to the account.
 
+Get the Golfer Detail
+![Golfer Detail](Golfer-Detail.png)
+
 ---
 
 # SOLUTION:
@@ -25,6 +28,9 @@ Whenever client want to scrap data for ghin numbers open the .csv and enter thos
 After you play the scraper you just wait and watch until process get done.
 
 Every time, client will fill new GHIN numbers in .csv and play the automation at the end client will have data in new csv.
+
+Automation Development
+![Automation Development](automation-development.PNG)
 
 ---
 
